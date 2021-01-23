@@ -29,6 +29,7 @@ const inputs = document.querySelectorAll('.input');
 for (input of inputs) {
     input.addEventListener('input', () => {
         countingAvailableMoney();
+        calculationPercents();
     })
 }
 
